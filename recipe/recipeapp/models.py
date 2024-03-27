@@ -9,5 +9,6 @@ class Recipe(models.Model):
     rating=models.IntegerField(null=True,blank=True)
     comment=models.CharField(max_length=300)
 
+
     def __str__(self):
         return self.name
